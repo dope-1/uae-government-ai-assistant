@@ -14,7 +14,9 @@ OUTPUT = ROOT / "experiments/evaluation/milestone9_deployment_results.json"
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Verify the public Milestone 9 deployment")
+    parser = argparse.ArgumentParser(
+        description="Verify the public Milestone 9 deployment"
+    )
     parser.add_argument("--frontend-url", required=True)
     parser.add_argument("--backend-url", required=True)
     parser.add_argument("--ops-token")
@@ -36,7 +38,9 @@ def _request(
         merged_headers["Content-Type"] = "application/json"
     if headers:
         merged_headers.update(headers)
-    request = urllib.request.Request(url, data=body, headers=merged_headers, method=method)
+    request = urllib.request.Request(
+        url, data=body, headers=merged_headers, method=method
+    )
     started = time.perf_counter()
     try:
         with urllib.request.urlopen(request, timeout=timeout) as response:
@@ -59,7 +63,7 @@ def _request(
 def _json(body: bytes) -> dict[str, Any]:
     value = json.loads(body.decode("utf-8"))
     if not isinstance(value, dict):
-        raise ValueError("Expected a JSON object")
+        raise TypeError("Expected a JSON object")
     return value
 
 
@@ -77,13 +81,19 @@ def main() -> None:
         f"{backend}/api/v1/ready", timeout=args.timeout
     )
     ready = _json(body) if status == 200 else {}
+    ready_dependencies = (
+        ready.get("dependencies") if isinstance(ready.get("dependencies"), dict) else {}
+    )
+
     record(
         "backend readiness",
-        status == 200 and bool(ready.get("postgresql")) and bool(ready.get("redis")),
+        status == 200
+        and bool(ready_dependencies.get("postgres"))
+        and bool(ready_dependencies.get("redis")),
         status=status,
         latency_ms=round(latency, 3),
-        postgresql=ready.get("postgresql"),
-        redis=ready.get("redis"),
+        postgresql=ready_dependencies.get("postgres"),
+        redis=ready_dependencies.get("redis"),
     )
     record(
         "backend request/security headers",
@@ -99,11 +109,17 @@ def main() -> None:
         f"{frontend}/api/backend/ready", timeout=args.timeout
     )
     proxied_ready = _json(body) if status == 200 else {}
+    proxied_dependencies = (
+        proxied_ready.get("dependencies")
+        if isinstance(proxied_ready.get("dependencies"), dict)
+        else {}
+    )
+
     record(
         "frontend-to-backend proxy",
         status == 200
-        and bool(proxied_ready.get("postgresql"))
-        and bool(proxied_ready.get("redis")),
+        and bool(proxied_dependencies.get("postgres"))
+        and bool(proxied_dependencies.get("redis")),
         status=status,
         latency_ms=round(latency, 3),
     )

@@ -1,0 +1,48 @@
+{
+  "evaluation": "milestone9_deployment",
+  "timestamp_utc": "2026-09-05T19:21:36.266046+00:00",
+  "frontend_url": "https://uae-government-ai-assistant.vercel.app",
+  "backend_url": "https://uae-government-ai-assistant-api-osj6ztd3ua-ey.a.run.app",
+  "passed": true,
+  "checks": [
+    {
+      "name": "backend readiness",
+      "passed": true,
+      "status": 200,
+      "latency_ms": 331.795,
+      "postgresql": true,
+      "redis": true
+    },
+    {
+      "name": "backend request/security headers",
+      "passed": true
+    },
+    {
+      "name": "frontend root",
+      "passed": true,
+      "status": 200,
+      "latency_ms": 159.836
+    },
+    {
+      "name": "frontend-to-backend proxy",
+      "passed": true,
+      "status": 200,
+      "latency_ms": 481.051
+    },
+    {
+      "name": "end-to-end grounded chat",
+      "passed": true,
+      "status": 200,
+      "latency_ms": 458.489,
+      "response_status": "answered",
+      "citations": 1,
+      "cache": "MISS"
+    },
+    {
+      "name": "operational metrics require authentication",
+      "passed": true,
+      "status": 401,
+      "latency_ms": 156.681
+    }
+  ]
+}
