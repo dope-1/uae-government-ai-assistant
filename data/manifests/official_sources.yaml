@@ -1,0 +1,104 @@
+schema_version: "1.2"
+policy:
+  purpose: "Portfolio/research indexing of public UAE government information"
+  respect_robots_txt: true
+  obey_terms_of_service: true
+  rate_limit_requests: true
+  store_source_url_and_retrieval_timestamp: true
+sources:
+  # --- Federal: English ---
+  - id: federal_golden_visa_en
+    url: https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/golden-visa
+    authority: UAE Government Portal
+    jurisdiction: Federal
+    language: en
+    document_type: html
+    notes: Current federal Golden Visa overview, benefits and eligibility categories.
+  - id: federal_student_residence_en
+    url: https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae
+    authority: UAE Government Portal
+    jurisdiction: Federal
+    language: en
+    document_type: html
+    notes: Current federal student residence-visa information.
+  - id: federal_residence_types_en
+    url: https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas
+    authority: UAE Government Portal
+    jurisdiction: Federal
+    language: en
+    document_type: html
+    notes: Federal residence-visa topic index.
+
+  # --- Federal: Arabic ---
+  # The UAE portal's deep Arabic residence URLs intermittently return HTTP 404 to
+  # non-browser clients. These current category pages are stable, authoritative,
+  # Arabic-first entry points and still provide useful bilingual/cross-lingual evidence.
+  - id: federal_visa_types_ar
+    url: https://u.ae/ar/information-and-services/visa-and-emirates-id/types-of-visas
+    authority: UAE Government Portal
+    jurisdiction: Federal
+    language: ar
+    document_type: html
+    notes: Current Arabic federal visa-types index, including Golden Visa and student residence topics.
+  - id: federal_visa_identity_ar
+    url: https://u.ae/ar/information-and-services/visa-and-emirates-id
+    authority: UAE Government Portal
+    jurisdiction: Federal
+    language: ar
+    document_type: html
+    notes: Current Arabic federal visa and Emirates ID topic page.
+
+  # --- Dubai: current RTA service detail pages ---
+  - id: dubai_driving_licence_renew_en
+    url: https://www.rta.ae/wps/portal/rta/ae/home/rta-services/service-details?serviceId=618
+    authority: Roads and Transport Authority
+    jurisdiction: Dubai
+    language: en
+    document_type: html
+    notes: Current Dubai RTA driving-licence management page with Renew Driving Licence selected.
+  - id: dubai_vehicle_ownership_renew_en
+    url: https://www.rta.ae/wps/portal/rta/ae/home/rta-services/service-details?serviceId=582
+    authority: Roads and Transport Authority
+    jurisdiction: Dubai
+    language: en
+    document_type: html
+    notes: Current Dubai RTA vehicle-ownership renewal service.
+  - id: dubai_services_ar
+    url: https://www.rta.ae/wps/portal/rta/ae/home/rta-services?serviceId=1203
+    authority: Roads and Transport Authority
+    jurisdiction: Dubai
+    language: ar
+    document_type: html
+    notes: Current Arabic RTA service catalogue including driving-licence and vehicle-ownership service families.
+
+  # --- Abu Dhabi: current Abu Dhabi Mobility licensing pages ---
+  # Abu Dhabi Mobility (Integrated Transport Centre) currently provides driver and
+  # vehicle licensing services and routes digital transactions through TAMM.
+  - id: abu_dhabi_driver_licensing_en
+    url: https://admobility.gov.ae/en/driver-licensing-services
+    authority: Abu Dhabi Mobility / Integrated Transport Centre
+    jurisdiction: Abu Dhabi
+    language: en
+    document_type: html
+    notes: Current official driver-licensing overview, including driving-licence renewal and TAMM access.
+  - id: abu_dhabi_vehicle_licensing_en
+    url: https://admobility.gov.ae/en/vehicle-licensing-services
+    authority: Abu Dhabi Mobility / Integrated Transport Centre
+    jurisdiction: Abu Dhabi
+    language: en
+    document_type: html
+    notes: Current official vehicle-licensing overview, including vehicle registration renewal and TAMM access.
+  - id: abu_dhabi_driver_licensing_ar
+    url: https://admobility.gov.ae/ar-ae/driver-licensing-services
+    authority: Abu Dhabi Mobility / Integrated Transport Centre
+    jurisdiction: Abu Dhabi
+    language: ar
+    document_type: html
+    notes: Current Arabic official driver-licensing overview, including driving-licence renewal.
+  - id: abu_dhabi_vehicle_licensing_ar
+    url: https://admobility.gov.ae/ar-ae/vehicle-licensing-services
+    authority: Abu Dhabi Mobility / Integrated Transport Centre
+    jurisdiction: Abu Dhabi
+    language: ar
+    document_type: html
+    notes: Current Arabic official vehicle-licensing overview, including vehicle registration renewal.

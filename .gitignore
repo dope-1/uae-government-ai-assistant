@@ -1,0 +1,64 @@
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# =========================
+# Python
+# =========================
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Node / Next.js
+# =========================
+node_modules/
+.next/
+.vercel/
+
+# =========================
+# Build / deployment outputs
+# =========================
+dist/
+build/
+*.zip
+
+# =========================
+# Local caches
+# =========================
+.cache/
+.huggingface/
+hf_cache/
+
+# =========================
+# Credentials / keys
+# =========================
+credentials/
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+
+# =========================
+# IDE / OS / logs
+# =========================
+.idea/
+.vscode/
+.DS_Store
+*.log
+
+# Generated package/build metadata
+*.egg-info/
+*.tsbuildinfo

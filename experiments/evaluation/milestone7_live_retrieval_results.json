@@ -1,0 +1,1530 @@
+{
+  "evaluation": "milestone7_live_retrieval",
+  "suite_version": "m7-v2",
+  "k": 5,
+  "cases": 130,
+  "recall@5": 1.0,
+  "precision@5": 0.2,
+  "mrr": 0.941025641025641,
+  "ndcg@5": 0.9564078196153878,
+  "rows": [
+    {
+      "id": "m7-001",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-002",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-003",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-004",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-005",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-006",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-007",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-008",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-009",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-010",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-011",
+      "returned_sources": [
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-012",
+      "returned_sources": [
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-013",
+      "returned_sources": [
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-014",
+      "returned_sources": [
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-015",
+      "returned_sources": [
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-016",
+      "returned_sources": [
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-017",
+      "returned_sources": [
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-018",
+      "returned_sources": [
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-019",
+      "returned_sources": [
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-020",
+      "returned_sources": [
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-021",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-022",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-023",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-024",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-025",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-026",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-027",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-028",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-029",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-030",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-031",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_driver_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-032",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_driver_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-033",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_driver_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-034",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_driver_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-035",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_driver_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-036",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_driver_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-037",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_driver_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-038",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_driver_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-039",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_driver_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-040",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_driver_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-041",
+      "returned_sources": [
+        "federal_golden_visa_en",
+        "federal_student_residence_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-042",
+      "returned_sources": [
+        "federal_student_residence_en",
+        "federal_golden_visa_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    {
+      "id": "m7-043",
+      "returned_sources": [
+        "federal_golden_visa_en",
+        "federal_student_residence_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-044",
+      "returned_sources": [
+        "federal_golden_visa_en",
+        "federal_student_residence_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-045",
+      "returned_sources": [
+        "federal_residence_types_en",
+        "federal_golden_visa_en",
+        "federal_student_residence_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    {
+      "id": "m7-046",
+      "returned_sources": [
+        "federal_golden_visa_en",
+        "federal_student_residence_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-047",
+      "returned_sources": [
+        "federal_student_residence_en",
+        "federal_golden_visa_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    {
+      "id": "m7-048",
+      "returned_sources": [
+        "federal_golden_visa_en",
+        "federal_student_residence_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-049",
+      "returned_sources": [
+        "federal_golden_visa_en",
+        "federal_student_residence_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-050",
+      "returned_sources": [
+        "federal_residence_types_en",
+        "federal_golden_visa_en",
+        "federal_student_residence_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    {
+      "id": "m7-051",
+      "returned_sources": [
+        "federal_residence_types_en",
+        "federal_student_residence_en",
+        "federal_golden_visa_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    {
+      "id": "m7-052",
+      "returned_sources": [
+        "federal_student_residence_en",
+        "federal_residence_types_en",
+        "federal_golden_visa_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-053",
+      "returned_sources": [
+        "federal_golden_visa_en",
+        "federal_student_residence_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    {
+      "id": "m7-054",
+      "returned_sources": [
+        "federal_student_residence_en",
+        "federal_golden_visa_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-055",
+      "returned_sources": [
+        "federal_student_residence_en",
+        "federal_golden_visa_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-056",
+      "returned_sources": [
+        "federal_residence_types_en",
+        "federal_student_residence_en",
+        "federal_golden_visa_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    {
+      "id": "m7-057",
+      "returned_sources": [
+        "federal_residence_types_en",
+        "federal_student_residence_en",
+        "federal_golden_visa_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    {
+      "id": "m7-058",
+      "returned_sources": [
+        "federal_golden_visa_en",
+        "federal_residence_types_en",
+        "federal_student_residence_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.3333333333333333,
+      "ndcg": 0.5
+    },
+    {
+      "id": "m7-059",
+      "returned_sources": [
+        "federal_student_residence_en",
+        "federal_golden_visa_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-060",
+      "returned_sources": [
+        "federal_student_residence_en",
+        "federal_golden_visa_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-061",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en",
+        "dubai_services_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-062",
+      "returned_sources": [
+        "dubai_services_ar",
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-063",
+      "returned_sources": [
+        "dubai_services_ar",
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-064",
+      "returned_sources": [
+        "dubai_services_ar",
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-065",
+      "returned_sources": [
+        "dubai_services_ar",
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-066",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en",
+        "dubai_services_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    {
+      "id": "m7-067",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en",
+        "dubai_services_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    {
+      "id": "m7-068",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en",
+        "dubai_services_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    {
+      "id": "m7-069",
+      "returned_sources": [
+        "dubai_services_ar",
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-070",
+      "returned_sources": [
+        "dubai_services_ar",
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-071",
+      "returned_sources": [
+        "dubai_vehicle_ownership_renew_en",
+        "dubai_services_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    {
+      "id": "m7-072",
+      "returned_sources": [
+        "dubai_services_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-073",
+      "returned_sources": [
+        "dubai_services_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-074",
+      "returned_sources": [
+        "dubai_services_ar",
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-075",
+      "returned_sources": [
+        "dubai_services_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-076",
+      "returned_sources": [
+        "dubai_vehicle_ownership_renew_en",
+        "dubai_services_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    {
+      "id": "m7-077",
+      "returned_sources": [
+        "dubai_services_ar",
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-078",
+      "returned_sources": [
+        "dubai_services_ar",
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-079",
+      "returned_sources": [
+        "dubai_services_ar",
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-080",
+      "returned_sources": [
+        "dubai_services_ar",
+        "dubai_vehicle_ownership_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-081",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-082",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-083",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-084",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-085",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-086",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 0.5,
+      "ndcg": 0.6309297535714575
+    },
+    {
+      "id": "m7-087",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-088",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-089",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-090",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_vehicle_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-091",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-092",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-093",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-094",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-095",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-096",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-097",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-098",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-099",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-100",
+      "returned_sources": [
+        "abu_dhabi_vehicle_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-101",
+      "returned_sources": [
+        "federal_visa_identity_ar",
+        "federal_residence_types_en",
+        "federal_golden_visa_en",
+        "federal_student_residence_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-102",
+      "returned_sources": [
+        "federal_visa_identity_ar",
+        "federal_residence_types_en",
+        "federal_golden_visa_en",
+        "federal_student_residence_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-103",
+      "returned_sources": [
+        "federal_visa_identity_ar",
+        "federal_residence_types_en",
+        "federal_golden_visa_en",
+        "federal_student_residence_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-104",
+      "returned_sources": [
+        "federal_visa_identity_ar",
+        "federal_residence_types_en",
+        "federal_golden_visa_en",
+        "federal_student_residence_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-105",
+      "returned_sources": [
+        "federal_visa_identity_ar",
+        "federal_residence_types_en",
+        "federal_golden_visa_en",
+        "federal_student_residence_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-106",
+      "returned_sources": [
+        "federal_visa_identity_ar",
+        "federal_residence_types_en",
+        "federal_student_residence_en",
+        "federal_golden_visa_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-107",
+      "returned_sources": [
+        "federal_visa_identity_ar",
+        "federal_residence_types_en",
+        "federal_student_residence_en",
+        "federal_golden_visa_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-108",
+      "returned_sources": [
+        "federal_visa_identity_ar",
+        "federal_residence_types_en",
+        "federal_golden_visa_en",
+        "federal_student_residence_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-109",
+      "returned_sources": [
+        "federal_visa_identity_ar",
+        "federal_residence_types_en",
+        "federal_golden_visa_en",
+        "federal_student_residence_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-110",
+      "returned_sources": [
+        "federal_visa_identity_ar",
+        "federal_residence_types_en",
+        "federal_golden_visa_en",
+        "federal_student_residence_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-111",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-112",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-113",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-114",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-115",
+      "returned_sources": [
+        "federal_golden_visa_en",
+        "federal_student_residence_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-116",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-117",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-118",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-119",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-120",
+      "returned_sources": [
+        "federal_golden_visa_en",
+        "federal_student_residence_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-121",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-122",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-123",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-124",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-125",
+      "returned_sources": [
+        "federal_golden_visa_en",
+        "federal_student_residence_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-126",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-127",
+      "returned_sources": [
+        "dubai_driving_licence_renew_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-128",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_en"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-129",
+      "returned_sources": [
+        "abu_dhabi_driver_licensing_en",
+        "abu_dhabi_vehicle_licensing_en",
+        "abu_dhabi_driver_licensing_ar",
+        "abu_dhabi_vehicle_licensing_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    },
+    {
+      "id": "m7-130",
+      "returned_sources": [
+        "federal_golden_visa_en",
+        "federal_student_residence_en",
+        "federal_residence_types_en",
+        "federal_visa_identity_ar"
+      ],
+      "recall": 1.0,
+      "precision": 0.2,
+      "mrr": 1.0,
+      "ndcg": 1.0
+    }
+  ],
+  "limitations": "Relevance is labelled at source level because live chunk IDs may change after re-ingestion. Recall is case-level source-equivalence recall: any accepted English/Arabic source can satisfy a mixed-language information need."
+}

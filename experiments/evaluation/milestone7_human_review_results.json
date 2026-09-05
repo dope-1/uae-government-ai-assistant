@@ -1,0 +1,89 @@
+{
+  "reviewed_cases": 30,
+  "faithfulness_mean": 4.5,
+  "answer_relevance_mean": 4.6,
+  "citation_completeness_mean": 4.5,
+  "language_quality_mean": 4.433333333333334,
+  "language_distribution": {
+    "en": 10,
+    "ar": 10,
+    "mixed": 10
+  },
+  "jurisdiction_distribution": {
+    "Federal": 12,
+    "Dubai": 9,
+    "Abu Dhabi": 9
+  },
+  "by_language": {
+    "ar": {
+      "cases": 10,
+      "faithfulness_mean": 4.4,
+      "answer_relevance_mean": 4.3,
+      "citation_completeness_mean": 4.4,
+      "language_quality_mean": 3.9
+    },
+    "en": {
+      "cases": 10,
+      "faithfulness_mean": 4.8,
+      "answer_relevance_mean": 4.8,
+      "citation_completeness_mean": 4.8,
+      "language_quality_mean": 4.8
+    },
+    "mixed": {
+      "cases": 10,
+      "faithfulness_mean": 4.3,
+      "answer_relevance_mean": 4.7,
+      "citation_completeness_mean": 4.3,
+      "language_quality_mean": 4.6
+    }
+  },
+  "by_jurisdiction": {
+    "Abu Dhabi": {
+      "cases": 9,
+      "faithfulness_mean": 4.333333333333333,
+      "answer_relevance_mean": 4.444444444444445,
+      "citation_completeness_mean": 4.333333333333333,
+      "language_quality_mean": 4.444444444444445
+    },
+    "Dubai": {
+      "cases": 9,
+      "faithfulness_mean": 4.0,
+      "answer_relevance_mean": 4.555555555555555,
+      "citation_completeness_mean": 4.0,
+      "language_quality_mean": 5.0
+    },
+    "Federal": {
+      "cases": 12,
+      "faithfulness_mean": 5.0,
+      "answer_relevance_mean": 4.75,
+      "citation_completeness_mean": 5.0,
+      "language_quality_mean": 4.0
+    }
+  },
+  "low_score_cases": [
+    {
+      "case_id": "m7-077",
+      "language": "ar",
+      "jurisdiction": "Dubai",
+      "scores": {
+        "faithfulness_1_5": 2.0,
+        "answer_relevance_1_5": 4.0,
+        "citation_completeness_1_5": 2.0,
+        "language_quality_1_5": 5.0
+      },
+      "reviewer_notes": "AI-assisted review: the answer is plausible/relevant, but the frozen citation excerpt is mostly navigation text and does not substantiate the vehicle-ownership claim."
+    },
+    {
+      "case_id": "m7-084",
+      "language": "ar",
+      "jurisdiction": "Abu Dhabi",
+      "scores": {
+        "faithfulness_1_5": 5.0,
+        "answer_relevance_1_5": 4.0,
+        "citation_completeness_1_5": 5.0,
+        "language_quality_1_5": 2.0
+      },
+      "reviewer_notes": "AI-assisted review: factual content is supported, but the answer contains a large amount of navigation/page-chrome text and is poor user-facing Arabic."
+    }
+  ]
+}

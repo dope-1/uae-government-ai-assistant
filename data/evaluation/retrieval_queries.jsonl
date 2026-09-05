@@ -1,0 +1,20 @@
+{"id": "q01", "query": "Where can I find official information on Golden Visa eligibility?", "relevant_ids": ["federal-golden-overview"], "language": "en"}
+{"id": "q02", "query": "Does the UAE Golden Visa require a sponsor?", "relevant_ids": ["federal-golden-benefits", "federal-golden-overview"], "language": "en"}
+{"id": "q03", "query": "Which long-term visa can be five or ten years for eligible talent?", "relevant_ids": ["federal-golden-overview"], "language": "en"}
+{"id": "q04", "query": "Can a university sponsor a student's UAE residence visa?", "relevant_ids": ["federal-student-residence"], "language": "en"}
+{"id": "q05", "query": "What federal page lists Golden, work, student and tourist visa types?", "relevant_ids": ["federal-residence-types"], "language": "en"}
+{"id": "q06", "query": "How do I renew my driving licence in Dubai?", "relevant_ids": ["dubai-licence-renew-steps"], "language": "en"}
+{"id": "q07", "query": "Do I need an eye test for Dubai driving licence renewal?", "relevant_ids": ["dubai-licence-renew-steps"], "language": "en"}
+{"id": "q08", "query": "What does RTA say about validity periods after licence renewal?", "relevant_ids": ["dubai-licence-renew-validity"], "language": "en"}
+{"id": "q09", "query": "How do I renew ownership of a Dubai registered vehicle?", "relevant_ids": ["dubai-vehicle-renew", "dubai-vehicle-output"], "language": "en"}
+{"id": "q10", "query": "Does Dubai vehicle renewal check insurance and technical inspection?", "relevant_ids": ["dubai-vehicle-renew"], "language": "en"}
+{"id": "q11", "query": "Which service replaces a lost vehicle ownership certificate in Dubai?", "relevant_ids": ["dubai-vehicle-output"], "language": "en"}
+{"id": "q12", "query": "Where does TAMM group the steps for obtaining a driving licence in Abu Dhabi?", "relevant_ids": ["abudhabi-obtain-licence"], "language": "en"}
+{"id": "q13", "query": "Abu Dhabi traffic file eye exam practical test driving licence", "relevant_ids": ["abudhabi-obtain-licence"], "language": "en"}
+{"id": "q14", "query": "ما هي فئات خدمات قيادة المركبات في أبوظبي على منصة تم؟", "relevant_ids": ["abudhabi-manage-ar"], "language": "ar"}
+{"id": "q15", "query": "أين أجد إدارة رخصة القيادة والمركبة الشخصية في أبوظبي؟", "relevant_ids": ["abudhabi-manage-ar"], "language": "ar"}
+{"id": "q16", "query": "كيف أجد خدمة تجديد رخصة القيادة في دبي؟", "relevant_ids": ["dubai-driver-ar"], "language": "ar"}
+{"id": "q17", "query": "ما هي خدمات ترخيص السائقين والمركبات في دبي؟", "relevant_ids": ["dubai-driver-ar"], "language": "ar"}
+{"id": "q18", "query": "Dubai تجديد رخصة القيادة driver licensing", "relevant_ids": ["dubai-driver-ar", "dubai-licence-renew-steps"], "language": "mixed"}
+{"id": "q19", "query": "Abu Dhabi منصة تم driving licence services", "relevant_ids": ["abudhabi-manage-ar", "abudhabi-obtain-licence"], "language": "mixed"}
+{"id": "q20", "query": "student visa university sponsorship UAE", "relevant_ids": ["federal-student-residence"], "language": "en"}

@@ -1,0 +1,105 @@
+{
+  "evaluation": "offline_grounded_rag_regression",
+  "generator": "grounded-extractive-baseline",
+  "retrieval": "hybrid_rerank_offline_baseline",
+  "queries": 10,
+  "status_accuracy": 1.0,
+  "language_accuracy": 1.0,
+  "expected_fact_coverage": 1.0,
+  "citation_precision": 0.85,
+  "citation_recall": 0.95,
+  "citation_presence_rate": 1.0,
+  "cases": [
+    {
+      "id": "rag01",
+      "status_correct": true,
+      "language_correct": true,
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "citation_recall": 0.5,
+      "citation_present_when_answered": true
+    },
+    {
+      "id": "rag02",
+      "status_correct": true,
+      "language_correct": true,
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "citation_present_when_answered": true
+    },
+    {
+      "id": "rag03",
+      "status_correct": true,
+      "language_correct": true,
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "citation_present_when_answered": true
+    },
+    {
+      "id": "rag04",
+      "status_correct": true,
+      "language_correct": true,
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "citation_present_when_answered": true
+    },
+    {
+      "id": "rag05",
+      "status_correct": true,
+      "language_correct": true,
+      "fact_coverage": 1.0,
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "citation_present_when_answered": true
+    },
+    {
+      "id": "rag06",
+      "status_correct": true,
+      "language_correct": true,
+      "fact_coverage": 1.0,
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "citation_present_when_answered": true
+    },
+    {
+      "id": "rag07",
+      "status_correct": true,
+      "language_correct": true,
+      "fact_coverage": 1.0,
+      "citation_precision": 0.5,
+      "citation_recall": 1.0,
+      "citation_present_when_answered": true
+    },
+    {
+      "id": "rag08",
+      "status_correct": true,
+      "language_correct": true,
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "citation_present_when_answered": true
+    },
+    {
+      "id": "rag09",
+      "status_correct": true,
+      "language_correct": true,
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "citation_present_when_answered": true
+    },
+    {
+      "id": "rag10",
+      "status_correct": true,
+      "language_correct": true,
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "citation_present_when_answered": true
+    }
+  ],
+  "limitations": "Deterministic offline regression checks over a small curated fixture; not a production faithfulness score and not an LLM-as-judge evaluation."
+}

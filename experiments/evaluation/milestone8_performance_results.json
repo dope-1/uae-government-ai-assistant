@@ -1,0 +1,25 @@
+{
+  "evaluation": "milestone8_performance",
+  "timestamp_utc": "2026-09-04T11:29:11.446523+00:00",
+  "endpoint": "chat",
+  "requests": 30,
+  "concurrency": 5,
+  "wall_seconds": 0.3236,
+  "throughput_requests_per_second": 92.709,
+  "success_rate": 1.0,
+  "latency_ms": {
+    "p50": 50.27,
+    "p95": 55.236,
+    "p99": 60.994,
+    "max": 60.994
+  },
+  "status_counts": {
+    "200": 30
+  },
+  "cache_counts": {
+    "HIT": 30
+  },
+  "request_id_coverage": 1.0,
+  "transport_errors": {},
+  "privacy_note": "Benchmark output intentionally excludes raw query text and responses."
+}

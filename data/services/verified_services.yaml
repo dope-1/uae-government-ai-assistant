@@ -1,0 +1,127 @@
+schema_version: "1.2"
+# Metadata-only structured service records. Empty fact fields are intentional: the
+# project never fabricates requirements, documents or fees that were not curated.
+services:
+  - id: federal_golden_visa_information
+    service_name: Golden Visa information
+    authority: UAE Government Portal
+    jurisdiction: Federal
+    category: Residency
+    description: Official federal information page for the UAE Golden Visa.
+    requirements: []
+    documents: []
+    fees: []
+    official_url: https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/golden-visa
+    source_id: federal_golden_visa_en
+  - id: federal_student_residence_information
+    service_name: Student residence visa information
+    authority: UAE Government Portal
+    jurisdiction: Federal
+    category: Residency
+    description: Official federal information about residence visas for studying in the UAE.
+    requirements: []
+    documents: []
+    fees: []
+    official_url: https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/residence-visa-for-studying-in-the-uae
+    source_id: federal_student_residence_en
+  - id: federal_visa_types_information_ar
+    service_name: أنواع التأشيرات والإقامة في دولة الإمارات
+    authority: UAE Government Portal
+    jurisdiction: Federal
+    category: Residency
+    description: دليل اتحادي رسمي باللغة العربية لأنواع التأشيرات، ويتضمن الإقامة الذهبية والإقامة للدراسة.
+    requirements: []
+    documents: []
+    fees: []
+    official_url: https://u.ae/ar/information-and-services/visa-and-emirates-id/types-of-visas
+    source_id: federal_visa_types_ar
+
+  - id: dubai_driving_licence_renewal
+    service_name: Renew Driving Licence
+    authority: Roads and Transport Authority
+    jurisdiction: Dubai
+    category: Transport
+    description: Official Dubai RTA driving-licence renewal service page.
+    requirements: []
+    documents: []
+    fees: []
+    official_url: https://www.rta.ae/wps/portal/rta/ae/home/rta-services/service-details?serviceId=618
+    source_id: dubai_driving_licence_renew_en
+  - id: dubai_vehicle_ownership_renewal
+    service_name: Renew Vehicle Ownership
+    authority: Roads and Transport Authority
+    jurisdiction: Dubai
+    category: Transport
+    description: Official Dubai RTA vehicle-ownership renewal service page.
+    requirements: []
+    documents: []
+    fees: []
+    official_url: https://www.rta.ae/wps/portal/rta/ae/home/rta-services/service-details?serviceId=582
+    source_id: dubai_vehicle_ownership_renew_en
+  - id: dubai_driving_licence_services_ar
+    service_name: طلب أو إدارة رخصة قيادة في دبي
+    authority: Roads and Transport Authority
+    jurisdiction: Dubai
+    category: Transport
+    description: دليل خدمات هيئة الطرق والمواصلات باللغة العربية لإدارة رخص القيادة، بما فيها التجديد.
+    requirements: []
+    documents: []
+    fees: []
+    official_url: https://www.rta.ae/wps/portal/rta/ae/home/rta-services?serviceId=1203
+    source_id: dubai_services_ar
+  - id: dubai_vehicle_ownership_services_ar
+    service_name: تجديد وتعديل بيانات ملكية مركبة في دبي
+    authority: Roads and Transport Authority
+    jurisdiction: Dubai
+    category: Transport
+    description: دليل خدمات هيئة الطرق والمواصلات باللغة العربية لتجديد وتعديل بيانات ملكية المركبات.
+    requirements: []
+    documents: []
+    fees: []
+    official_url: https://www.rta.ae/wps/portal/rta/ae/home/rta-services?serviceId=1203
+    source_id: dubai_services_ar
+
+  - id: abu_dhabi_driving_licence_renewal
+    service_name: Renew Driving Licence
+    authority: Abu Dhabi Mobility / Integrated Transport Centre
+    jurisdiction: Abu Dhabi
+    category: Transport
+    description: Official Abu Dhabi Mobility driver-licensing overview confirms driving-licence renewal and digital access through TAMM.
+    requirements: []
+    documents: []
+    fees: []
+    official_url: https://admobility.gov.ae/en/driver-licensing-services
+    source_id: abu_dhabi_driver_licensing_en
+  - id: abu_dhabi_vehicle_registration_renewal
+    service_name: Renew Vehicle Registration Card
+    authority: Abu Dhabi Mobility / Integrated Transport Centre
+    jurisdiction: Abu Dhabi
+    category: Transport
+    description: Official Abu Dhabi Mobility vehicle-licensing overview covers vehicle registration renewal and digital access through TAMM.
+    requirements: []
+    documents: []
+    fees: []
+    official_url: https://admobility.gov.ae/en/vehicle-licensing-services
+    source_id: abu_dhabi_vehicle_licensing_en
+  - id: abu_dhabi_driving_licence_renewal_ar
+    service_name: تجديد رخصة القيادة في أبوظبي
+    authority: Abu Dhabi Mobility / Integrated Transport Centre
+    jurisdiction: Abu Dhabi
+    category: Transport
+    description: الصفحة الرسمية لأبوظبي للتنقل باللغة العربية وتغطي إصدار وتجديد رخص القيادة عبر منصة تم.
+    requirements: []
+    documents: []
+    fees: []
+    official_url: https://admobility.gov.ae/ar-ae/driver-licensing-services
+    source_id: abu_dhabi_driver_licensing_ar
+  - id: abu_dhabi_vehicle_registration_renewal_ar
+    service_name: تجديد ملكية المركبة في أبوظبي
+    authority: Abu Dhabi Mobility / Integrated Transport Centre
+    jurisdiction: Abu Dhabi
+    category: Transport
+    description: الصفحة الرسمية لأبوظبي للتنقل باللغة العربية وتغطي تجديد وتسجيل ملكية المركبات عبر منصة تم.
+    requirements: []
+    documents: []
+    fees: []
+    official_url: https://admobility.gov.ae/ar-ae/vehicle-licensing-services
+    source_id: abu_dhabi_vehicle_licensing_ar
